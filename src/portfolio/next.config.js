@@ -4,6 +4,11 @@ module.exports = withCSS({
   exportPathMap: defaultPathMap => ({
     '/': { page: '/' },
   }),
+  assetPrefix: '/portfolio',
+  webpack: (config) => {
+    config.output.publicPath = `/portfolio${config.output.publicPath}`;
+    return config;
+  },
 });
 
 /* With CSS Modules */

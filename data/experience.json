@@ -1,0 +1,41 @@
+[{
+        "title": "Technical Architect",
+        "company": "Cube System",
+        "location": "Ho Chi Minh City, Viet Nam",
+        "period": {
+            "from": "July 2017",
+            "to": null
+        },
+        "description": [
+            "Coordinating requirements, schedules, and activities; contributing to team meetings; troubleshooting development and production problems.",
+            "Supporting developers by providing advice, coaching and educational opportunities.",
+            "Researching and developing application base on Machine learning and Deep learning. Such as web application for classifying customer 's mail , clustering company 's documents and mobile application for checking posture."
+        ]
+    },
+    {
+        "title": "Senior Developer",
+        "company": "Cube System",
+        "location": "Ho Chi Minh City, Viet Nam",
+        "period": {
+            "from": "Jan 2016",
+            "to": "June 2017"
+        },
+        "description": [
+            "As a Senior Developer, I worked as a mobile and web developer for the company, creating a codebase for common problems and documenting recurring scenarios.",
+            "Most of the mobile projects are native implementations in XCode (iOS, Objective-C or Swift), Android Studio (Android, Java) or React Native; the web projects are created using PHP and Node.js."
+        ]
+    },
+    {
+        "title": "Developer",
+        "company": "Cube System",
+        "location": "Ho Chi Minh City, Viet Nam",
+        "period": {
+            "from": "June 2014",
+            "to": "Dec 2015"
+        },
+        "description": [
+            "Learning and developing mobile application and web application.",
+            "Most of the mobile projects are native implementations in XCode (iOS, Objective-C) and Eclipse (Android, Java) and the web projects are created using PHP and .NET."
+        ]
+    }
+]

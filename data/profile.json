@@ -1,0 +1,98 @@
+{
+    "name": "Công Cương Phạm",
+    "picture": "profile.png",
+    "tagline": "Full Stack Developer",
+    "summary": [
+        "I am an enthusiastic and motivated software engineer with over four years of professional experience working in a variety of projects and technologies.",
+        "I have a solid background in creating complex mobile applications for iOS and Android, both native and with React Native.",
+        "I also have experience in designing, developing and testing complex, scalable and maintainable web applications."
+    ],
+    "contact": {
+        "email": {
+            "display": "congcuong.cse@gmail.com",
+            "action": "mailto:congcuong.cse@gmail.com"
+        },
+        "phone": {
+            "display": "+84 163 5979 772",
+            "action": "tel:+841635979772"
+        },
+        "website": {
+            "display": "",
+            "action": ""
+        },
+        "linkedin": {
+            "display": "",
+            "action": ""
+        },
+        "github": {
+            "display": "github.com/congcuong.cse",
+            "action": "https://github.com/congcuong.cse"
+        },
+        "twitter": {
+            "display": "",
+            "action": ""
+        },
+        "facebook": {
+            "display": "fb.me/congcuong.pham",
+            "action": "https://www.facebook.com/congcuong.pham"
+        }
+    },
+    "skills": {
+        "frontend": {
+            "tools": [{
+                    "title": "HTML5 & javascript",
+                    "level": 80
+                },
+                {
+                    "title": "Bootstrap & Foundation",
+                    "level": 88
+                },
+                {
+                    "title": "React",
+                    "level": 75
+                },
+                {
+                    "title": "Angular",
+                    "level": 50
+                }
+            ],
+            "extra": ["bower", "npm", "gulp", "webpack"]
+        },
+        "backend": {
+            "tools": [{
+                    "title": "PHP",
+                    "level": 90
+                },
+                {
+                    "title": "Node.js",
+                    "level": 85
+                },
+                {
+                    "title": "Python",
+                    "level": 70
+                },
+                {
+                    "title": "Ruby on Rails",
+                    "level": 50
+                }
+            ],
+            "extra": ["PostgreSql", "MySQL", "Mongodb", "RESTful", "GraphQL"]
+        },
+        "mobile": {
+            "tools": [{
+                    "title": "iOS",
+                    "level": 95
+                },
+                {
+                    "title": "Android",
+                    "level": 75
+                },
+                {
+                    "title": "React Native",
+                    "level": 85
+                }
+            ],
+            "extra": ["Fabric", "Firebase"]
+        }
+    }
+}

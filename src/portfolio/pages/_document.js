@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="shortcut icon" href="/porfolio/static/favicon.ico" />
+          <link rel="shortcut icon" href="/static/favicon.ico" />
           <title>Portfolio</title>
           <link
             rel="stylesheet"
@@ -21,8 +21,8 @@ export default class MyDocument extends Document {
             integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
             crossOrigin="anonymous"
           />
-          <link rel="stylesheet" href="/porfolio/static/css/font-awesome.min.css" />
-          <link rel="stylesheet" href="/porfolio/static/css/styles.css" />
+          <link rel="stylesheet" href="/static/css/font-awesome.min.css" />
+          <link rel="stylesheet" href="/static/css/styles.css" />
         </Head>
         <body>
           <Main />

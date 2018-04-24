@@ -1,13 +1,12 @@
 const withCSS = require('@zeit/next-css');
+const env = require('./env-config');
+
 /* Without CSS Modules, with PostCSS */
 module.exports = withCSS({
   exportPathMap: defaultPathMap => ({
     '/': { page: '/' },
   }),
-  // assetPrefix: '/portfolio',
-  webpack: config =>
-    // config.output.publicPath = `/portfolio${config.output.publicPath}`;
-    config,
+  assetPrefix: env['process.env.ASSET_PREFIX'],
 });
 
 /* With CSS Modules */

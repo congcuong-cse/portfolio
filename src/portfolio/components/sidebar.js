@@ -17,7 +17,11 @@ class Sidebar extends Component {
     return (
       <div className="sidebar-wrapper">
         <div className="profile-container">
-          <img className="profile" src="/porfolio/static/images/profile.png" alt="" />
+          <img
+            className="profile"
+            src={`${process.env.ASSET_PREFIX}/static/images/profile.png`}
+            alt=""
+          />
           <h1 className="name">{profile.name}</h1>
           <h3 className="tagline">{profile.tagline}</h3>
         </div>

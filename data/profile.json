@@ -5,7 +5,8 @@
     "summary": [
         "I am an enthusiastic and motivated software engineer with over four years of professional experience working in a variety of projects and technologies.",
         "I have a solid background in creating complex mobile applications for iOS and Android, both native and with React Native.",
-        "I also have experience in designing, developing and testing complex, scalable and maintainable web applications."
+        "I also have experience in designing, developing and testing complex, scalable and maintainable web applications.",
+        "I am skilled in implementing scalable platforms using microservices, ensuring robust and efficient solutions that meet modern technological demands."
     ],
     "contact": {
         "email": {
@@ -29,8 +30,12 @@
             "action": "https://github.com/congcuong-cse"
         },
         "twitter": {
-            "display": "",
-            "action": ""
+            "display": "live:congcuong.cse",
+            "action": "https://join.skype.com/invite/BkzgpN8dtVJR"
+        },
+        "skype": {
+            "display": "fb.me/congcuong.pham",
+            "action": "https://www.facebook.com/congcuong.pham"
         },
         "facebook": {
             "display": "fb.me/congcuong.pham",
@@ -39,7 +44,8 @@
     },
     "skills": {
         "frontend": {
-            "tools": [{
+            "tools": [
+                {
                     "title": "HTML5 & javascript",
                     "level": 80
                 },
@@ -56,30 +62,43 @@
                     "level": 50
                 }
             ],
-            "extra": ["bower", "npm", "gulp", "webpack"]
+            "extra": [
+                "bower",
+                "npm",
+                "gulp",
+                "webpack"
+            ]
         },
         "backend": {
-            "tools": [{
+            "tools": [
+                {
                     "title": "PHP",
-                    "level": 90
+                    "level": 80
                 },
                 {
                     "title": "Node.js",
-                    "level": 85
+                    "level": 98
                 },
                 {
                     "title": "Python",
-                    "level": 70
+                    "level": 80
                 },
                 {
                     "title": "Ruby on Rails",
-                    "level": 50
+                    "level": 60
                 }
             ],
-            "extra": ["PostgreSql", "MySQL", "Mongodb", "RESTful", "GraphQL"]
+            "extra": [
+                "PostgreSql",
+                "MySQL",
+                "Mongodb",
+                "RESTful",
+                "GraphQL"
+            ]
         },
         "mobile": {
-            "tools": [{
+            "tools": [
+                {
                     "title": "iOS",
                     "level": 95
                 },
@@ -89,10 +108,13 @@
                 },
                 {
                     "title": "React Native",
-                    "level": 85
+                    "level": 90
                 }
             ],
-            "extra": ["Fabric", "Firebase"]
+            "extra": [
+                "Fabric",
+                "Firebase"
+            ]
         }
     }
 }

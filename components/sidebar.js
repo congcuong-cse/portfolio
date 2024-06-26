@@ -60,6 +60,12 @@ class Sidebar extends Component {
                 @{profile.contact.twitter.display}
               </a>
             </li> */}
+            <li className="skype">
+              <i className="fa fa-skype" />
+              <a href={profile.contact.skype.action} target="_blank">
+                {profile.contact.skype.display}
+              </a>
+            </li>
             <li className="facebook">
               <i className="fa fa-facebook" />
               <a href={profile.contact.facebook.action} target="_blank">

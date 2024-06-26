@@ -89,6 +89,9 @@
                 }
             ],
             "extra": [
+                "Cassandra",
+                "Elasticsearch",
+                "Redis",
                 "PostgreSql",
                 "MySQL",
                 "Mongodb",

@@ -89,6 +89,7 @@
                 }
             ],
             "extra": [
+                "Kafka",
                 "Cassandra",
                 "Elasticsearch",
                 "Redis",

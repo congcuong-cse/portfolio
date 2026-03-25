@@ -4,9 +4,9 @@
     "tagline": "Full Stack Developer",
     "summary": [
         "I am an enthusiastic and motivated software engineer with over four years of professional experience working in a variety of projects and technologies.",
+        "I am skilled in implementing scalable platforms using microservices, ensuring robust and efficient solutions that meet modern technological demands.",
         "I have a solid background in creating complex mobile applications for iOS and Android, both native and with React Native.",
-        "I also have experience in designing, developing and testing complex, scalable and maintainable web applications.",
-        "I am skilled in implementing scalable platforms using microservices, ensuring robust and efficient solutions that meet modern technological demands."
+        "I also have experience in designing, developing and testing complex, scalable and maintainable web applications."
     ],
     "contact": {
         "email": {
@@ -89,6 +89,7 @@
                 }
             ],
             "extra": [
+                "Kafka",
                 "Cassandra",
                 "Elasticsearch",
                 "Redis",

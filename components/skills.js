@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Skills extends Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class Skills extends Component {
   }
 
   render() {
-    console.log('Skills::render()');
+    console.log("Skills::render()");
 
     const skills = this.props.skills;
 
@@ -49,15 +49,15 @@ class Skills extends Component {
           <i className="fa fa-rocket" />
           Skills &amp; Proficiency
         </h2>
-        <h3>Frontend</h3>
-        <div className="skillset">{skillSetFrontend}</div>
-        <p>Extra: {skills.frontend.extra.join(', ')}</p>
         <h3>Backend</h3>
         <div className="skillset">{skillSetBackend}</div>
-        <p>Extra: {skills.backend.extra.join(', ')}</p>
+        <p>Extra: {skills.backend.extra.join(", ")}</p>
+        <h3>Frontend</h3>
+        <div className="skillset">{skillSetFrontend}</div>
+        <p>Extra: {skills.frontend.extra.join(", ")}</p>
         <h3>Mobile</h3>
         <div className="skillset">{skillSetMobile}</div>
-        <p>Extra: {skills.mobile.extra.join(', ')}</p>
+        <p>Extra: {skills.mobile.extra.join(", ")}</p>
       </section>
     );
   }

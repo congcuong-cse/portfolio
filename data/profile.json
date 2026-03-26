@@ -50,41 +50,37 @@
         "frontend": {
             "tools": [
                 {
-                    "title": "HTML5 & javascript",
-                    "level": 80
-                },
-                {
-                    "title": "Bootstrap & Foundation",
-                    "level": 88
-                },
-                {
                     "title": "React",
-                    "level": 75
+                    "level": 95
                 },
                 {
                     "title": "Angular",
-                    "level": 50
+                    "level": 70
+                },
+                {
+                    "title": "jquery",
+                    "level": 80
                 }
             ],
             "extra": [
-                "bower",
-                "npm",
-                "gulp",
-                "webpack"
+                "nextjs",
+                "redux",
+                "antd",
+                "bootstrap"
             ]
         },
         "backend": {
             "tools": [
-                {
-                    "title": "PHP",
-                    "level": 80
-                },
                 {
                     "title": "Node.js",
                     "level": 98
                 },
                 {
                     "title": "Python",
+                    "level": 90
+                },
+                {
+                    "title": "PHP",
                     "level": 80
                 },
                 {
@@ -97,31 +93,38 @@
                 "Cassandra",
                 "Elasticsearch",
                 "Redis",
+                "ClickHouse",
                 "PostgreSql",
                 "MySQL",
                 "Mongodb",
-                "RESTful",
-                "GraphQL"
+                "Kubernetes",
+                "Docker",
+                "Logstash",
+                "Kibana",
+                "Grafana",
+                "Jaeger",
+                "Kong Gateway",
+                "Jenkins"
             ]
         },
         "mobile": {
             "tools": [
                 {
-                    "title": "iOS",
+                    "title": "React Native",
                     "level": 95
+                },
+                {
+                    "title": "iOS",
+                    "level": 90
                 },
                 {
                     "title": "Android",
                     "level": 75
-                },
-                {
-                    "title": "React Native",
-                    "level": 90
                 }
             ],
             "extra": [
-                "Fabric",
-                "Firebase"
+                "Firebase",
+                "Sentry"
             ]
         }
     }

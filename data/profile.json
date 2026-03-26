@@ -37,6 +37,10 @@
             "display": "live:congcuong.cse",
             "action": "https://join.skype.com/invite/BkzgpN8dtVJR"
         },
+        "team": {
+            "display": "congcuong.cse@live.com",
+            "action": "https://teams.microsoft.com/l/chat/0/0?users=congcuong.cse@live.com"
+        },
         "facebook": {
             "display": "fb.me/congcuong.pham",
             "action": "https://www.facebook.com/congcuong.pham"

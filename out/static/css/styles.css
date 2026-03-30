@@ -236,8 +236,16 @@ p {
     margin-bottom: 60px;
 }
 
+.main-wrapper .section .summary{
+    padding-left: 8px;
+}
+
 .main-wrapper .experiences-section .item {
     margin-bottom: 30px;
+}
+
+.main-wrapper .experiences-section .item .details {
+    padding-left: 8px;
 }
 
 .main-wrapper .upper-row {
@@ -258,13 +266,13 @@ p {
     position: absolute;
     right: 0;
     top: 0;
-    color: #97aac3;
+    /* color: #97aac3; */
     font-style: italic;
 }
 
 .main-wrapper .company {
     margin-bottom: 10px;
-    color: #97aac3;
+    /* color: #97aac3; */
     font-style: italic;
 }
 

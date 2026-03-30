@@ -251,7 +251,7 @@ p {
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .main-wrapper .time {
@@ -259,11 +259,13 @@ p {
     right: 0;
     top: 0;
     color: #97aac3;
+    font-style: italic;
 }
 
 .main-wrapper .company {
     margin-bottom: 10px;
     color: #97aac3;
+    font-style: italic;
 }
 
 .main-wrapper .project-title {
@@ -363,13 +365,24 @@ p {
     }
 }
 
+@page {
+    margin: 5mm
+}
+
 /* get background colors to show */
 @media print {
+    
     .sidebar-wrapper .profile-container {
+        display: inline-block;
         padding: 8px;
+        margin-right: 8px;
+        .name {
+            font-size: 20px;
+        }
     }
 
     .sidebar-wrapper .container-block {
+        display: inline-block;
         padding: 8px;
     }
     .main-wrapper .section {
@@ -390,14 +403,14 @@ p {
     .main-wrapper {
         padding: 8px;
     }
-    .main-wrapper .time {
+    /* .main-wrapper .time {
         position: static;
         display: block;
         margin-top: 5px;
     }
     .main-wrapper .upper-row {
         margin-bottom: 0;
-    }
+    } */
 
     .skillset .level-bar {
         background-color: #cdcdcd !important;

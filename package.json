@@ -6,12 +6,14 @@
         "build": "next build",
         "start": "next start",
         "export": "next export",
+        "export-pdf": "node scripts/generate-pdf.js && cp static/PhamCongCuong.pdf ./out/static/",
         "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages",
         "flow": "flow"
     },
     "dependencies": {
         "@zeit/next-css": "^0.1.5",
         "next": "^5.1.0",
+        "puppeteer": "^24.40.0",
         "react": "^16.3.1",
         "react-dom": "^16.3.1",
         "react-fancybox": "^0.2.1"

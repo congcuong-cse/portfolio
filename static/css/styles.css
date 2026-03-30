@@ -83,6 +83,12 @@ p {
     text-align: center;
     color: #fff;
 }
+.sidebar-wrapper .download-container {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    /* background: rgba(0, 0, 0, 0.2); */
+    font-size: 0.9em;
+}
 
 .sidebar-wrapper .name {
     font-size: 32px;
@@ -92,7 +98,7 @@ p {
 }
 
 .sidebar-wrapper .tagline {
-    color: rgba(255, 255, 255, 0.6);
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
@@ -338,7 +344,10 @@ p {
 
 /* Medium devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {
+@media (min-width: 700px) {
+    .sidebar-wrapper {
+        min-height: unset;
+    }
     .skillset .level-title {
         display: inline-block;
         float: left;
@@ -354,6 +363,53 @@ p {
     }
 }
 
+/* get background colors to show */
+@media print {
+    .sidebar-wrapper .profile-container {
+        padding: 8px;
+    }
+
+    .sidebar-wrapper .container-block {
+        padding: 8px;
+    }
+    .main-wrapper .section {
+        margin-bottom: 12px;
+    }
+    .main-wrapper .section-title {
+        margin-bottom: 0px;
+    }
+
+    .sidebar-wrapper .profile {
+        margin-bottom: 4px;
+    }
+
+    .sidebar-wrapper {
+        position: static;
+        width: inherit;
+    }
+    .main-wrapper {
+        padding: 8px;
+    }
+    .main-wrapper .time {
+        position: static;
+        display: block;
+        margin-top: 5px;
+    }
+    .main-wrapper .upper-row {
+        margin-bottom: 0;
+    }
+
+    .skillset .level-bar {
+        background-color: #cdcdcd !important;
+    }
+    .skillset .level-bar-inner {
+        background-color: #808080 !important;
+    }
+
+    .download-container {
+        display: none;
+    }
+}
 
 /* Large devices (large desktops, 1200px and up) */
 

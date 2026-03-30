@@ -96,6 +96,14 @@ class Sidebar extends Component {
             </li>
           </ul>
         </div>
+        <div className="download-container">
+          <a
+            href={`${process.env.ASSET_PREFIX}/static/PhamCongCuong.pdf`}
+            download
+          >
+            Download PDF this page
+          </a>
+        </div>
       </div>
     );
   }

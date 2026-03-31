@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Summary extends Component {
   render() {
-    console.log('Summary::render()');
+    console.log("Summary::render()");
 
     const { profile } = this.props;
 
@@ -17,7 +17,9 @@ class Summary extends Component {
           Career Profile
         </h2>
         <div className="summary">
-          {profile.summary.map((e, idx) => <p key={idx} dangerouslySetInnerHTML={{ __html: e }} />)}
+          {profile.summary.map((e, idx) => (
+            <p key={idx} dangerouslySetInnerHTML={{ __html: e }} />
+          ))}
         </div>
       </section>
     );

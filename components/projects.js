@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Projects extends Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class Projects extends Component {
   }
 
   render() {
-    console.log('Projects::render()');
+    console.log("Projects::render()");
 
     const template = function (project, index) {
       const galleryID = project.title;
@@ -26,7 +26,11 @@ class Projects extends Component {
       const imagesTemplate = function (image, index) {
         return (
           <div className="col-xs-6 col-md-3">
-            <a href={`./static/images/projects/${image}`} rel={galleryID} className="fancybox">
+            <a
+              href={`./static/images/projects/${image}`}
+              rel={galleryID}
+              className="fancybox"
+            >
               <img src={`./static/images/projects/${image}`} alt="" />
             </a>
           </div>
@@ -38,14 +42,17 @@ class Projects extends Component {
       return (
         <div className="item" key={index}>
           <h3 className="project-title">{project.title}</h3>
-          <p className="project-tagline">{project.description}</p>
-          <p className="project-tagline">{project.tags}</p>
-          <p>
+          {project.details.map((d) => (
+            <p className="project-tagline">{d}</p>
+          ))}
+          {/* <p className="project-tagline">{project.description}</p> */}
+          {/* <p className="project-tagline">{project.tags}</p> */}
+          {/* <p>
             <a href={project.url} target="_blank">
               {project.url}
             </a>
-          </p>
-          <div className="row gallery">{gallery}</div>
+          </p> */}
+          {/* <div className="row gallery">{gallery}</div> */}
         </div>
       );
     };

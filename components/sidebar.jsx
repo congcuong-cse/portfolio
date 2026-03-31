@@ -28,6 +28,8 @@ class Sidebar extends Component {
         </div>
 
         <div className="contact-container container-block">
+          <h1 className="name">{profile.name}</h1>
+          <h3 className="tagline">{profile.tagline}</h3>
           <ul className="list-unstyled contact-list">
             <li className="email">
               <i className="fa fa-envelope" />
@@ -65,6 +67,12 @@ class Sidebar extends Component {
                 {profile.contact.skype.display}
               </a>
             </li> */}
+            <li className="github">
+              <i className="fa fa-github" />
+              <a href={profile.contact.github.action} target="_blank">
+                {profile.contact.github.display}
+              </a>
+            </li>
             <li className="microsoft-teams">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,18 +90,12 @@ class Sidebar extends Component {
               </a> */}
               <CopiableText text={profile.contact.team.display} />
             </li>
-            <li className="github">
-              <i className="fa fa-github" />
-              <a href={profile.contact.github.action} target="_blank">
-                {profile.contact.github.display}
-              </a>
-            </li>
-            <li className="facebook">
+            {/* <li className="facebook">
               <i className="fa fa-facebook" />
               <a href={profile.contact.facebook.action} target="_blank">
                 {profile.contact.facebook.display}
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="download-container">
@@ -101,7 +103,7 @@ class Sidebar extends Component {
             href={`${process.env.ASSET_PREFIX}/static/PhamCongCuong.pdf`}
             download
           >
-            Download PDF this page
+            Download PDF version
           </a>
         </div>
       </div>

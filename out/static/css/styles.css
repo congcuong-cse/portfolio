@@ -105,6 +105,14 @@ p {
     margin-bottom: 0;
 }
 
+.contact-container .name {
+    display: none;
+}
+
+.contact-container .tagline {
+    display: none;
+}
+
 .sidebar-wrapper .profile {
     margin-bottom: 15px;
 }
@@ -206,8 +214,8 @@ p {
     font-weight: 500;
     color: #3d884d;
     position: relative;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .main-wrapper .section-title .fa {
@@ -241,7 +249,7 @@ p {
 }
 
 .main-wrapper .experiences-section .item {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .main-wrapper .experiences-section .item .details {
@@ -258,8 +266,32 @@ p {
     color: #3f4650;
     font-size: 16px;
     margin-top: 0;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     /* font-weight: 500; */
+}
+
+.skills-section>h3 {
+    font-size: 16px;
+}
+.experiences-section {
+    .company-group-title {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+}
+
+.skills-detail  h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.skills-detail p {
+    padding-left: 8px;
+}
+
+.projects-section p {
+    padding-left: 8px;
 }
 
 .main-wrapper .time {
@@ -276,9 +308,15 @@ p {
     font-style: italic;
 }
 
+.main-wrapper .location {
+    margin-bottom: 10px;
+    /* color: #97aac3; */
+    font-style: italic;
+}
+
 .main-wrapper .project-title {
     font-size: 16px;
-    font-weight: 400;
+    /* font-weight: 400; */
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -379,6 +417,38 @@ p {
 
 /* get background colors to show */
 @media print {
+
+    .email a[href]:before {
+        content: "Email: ";
+    }
+    .phone a[href]:before {
+        content: "Phone: ";
+    }
+    .github a[href]:before {
+        content: "Github: ";
+    }
+    .microsoft-teams>span:before {
+        content: "Microsoft Teams: ";
+    }
+
+
+    a[href]:after {
+        content: "";
+    }
+
+    .contact-container .name {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .contact-container .tagline {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .sidebar-wrapper {
+        display: flex;
+    }
     
     .sidebar-wrapper .profile-container {
         display: inline-block;
@@ -386,7 +456,15 @@ p {
         margin-right: 8px;
         .name {
             font-size: 20px;
+            display: none;
         }
+        .tagline {
+            display: none;
+        }
+    }
+
+    .sidebar-wrapper .contact-list li {
+        margin-bottom: unset;
     }
 
     .sidebar-wrapper .container-block {
@@ -396,12 +474,10 @@ p {
     .main-wrapper .section {
         margin-bottom: 12px;
     }
-    .main-wrapper .section-title {
-        margin-bottom: 0px;
-    }
 
     .sidebar-wrapper .profile {
-        margin-bottom: 4px;
+        /* margin-top: 8px;
+        margin-bottom: 8px; */
     }
 
     .sidebar-wrapper {
@@ -429,6 +505,13 @@ p {
 
     .download-container {
         display: none;
+    }
+
+    .main-wrapper .section-title .fa {
+        background: #555 !important;
+    }
+    .main-wrapper .section-title .fa::before {
+        color: white !important;
     }
 }
 

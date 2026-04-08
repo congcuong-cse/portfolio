@@ -46,6 +46,10 @@
     },
     "skills_summary": [
         {
+            "title": "Enterprise Systems",
+            "detail": "Odoo (ERP), Module Customization, Workflow Automation, System Integration"
+        },
+        {
             "title": "Architecture & System Design",
             "detail": "Microservices Architecture, Distributed Systems, Event-Driven Architecture, System Design, API Design, Scalable Systems, High Availability, Fault Tolerance"
         },
@@ -58,12 +62,8 @@
             "detail": "Apache Kafka, ClickHouse, Elasticsearch, Cassandra, Redis, PostgreSQL, MySQL, MongoDB"
         },
         {
-            "title": "Cloud & DevOps",
-            "detail": "Docker, Kubernetes, CI/CD, Jenkins"
-        },
-        {
-            "title": "Monitoring & Observability",
-            "detail": "Grafana, Kibana, Jaeger, Logstash"
+            "title": "Cloud & DevOps, Monitoring & Observability",
+            "detail": "Docker, Kubernetes, CI/CD, Jenkins; Grafana, Kibana, Jaeger, Logstash"
         },
         {
             "title": "Frontend",

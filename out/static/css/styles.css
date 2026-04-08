@@ -257,9 +257,9 @@ p {
 }
 
 .main-wrapper .upper-row {
-    position: relative;
-    overflow: hidden;
+    display: flex;
     margin-bottom: 2px;
+    justify-content: space-between;
 }
 
 .main-wrapper .job-title {
@@ -295,7 +295,6 @@ p {
 }
 
 .main-wrapper .time {
-    position: absolute;
     right: 0;
     top: 0;
     /* color: #97aac3; */
@@ -512,6 +511,11 @@ p {
     }
     .main-wrapper .section-title .fa::before {
         color: white !important;
+    }
+
+    p {
+        line-height: 1.2;
+        margin: 0 0 8px;
     }
 }
 

@@ -8,7 +8,7 @@
             "to": null
         },
         "description": [
-            "Architected microservices platform integrated with ERP systems (Odoo and others)",
+            "Architected a distributed microservices platform integrating ERP systems (Odoo and others) for large-scale supply chain operations",
             "Defined system architecture, service boundaries, and integration patterns",
             "Led event-driven architecture adoption using Kafka",
             "Improved system scalability, reliability, and observability",

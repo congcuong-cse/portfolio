@@ -8,11 +8,13 @@
             "to": null
         },
         "description": [
-            "Architected a distributed microservices platform integrating ERP systems (Odoo and others) for large-scale supply chain operations",
-            "Defined system architecture, service boundaries, and integration patterns",
-            "Led event-driven architecture adoption using Kafka",
-            "Improved system scalability, reliability, and observability",
+            "Architected a distributed microservices platform integrating ERP systems, defining system architecture and service boundaries, and leading Kafka-based event-driven design to improve scalability, reliability, and observability",
+            "Applied AI-assisted development tools (LLMs) to improve development productivity and code quality",
             "Collaborated with stakeholders to translate business requirements into technical solutions",
+
+            "Designed data processing pipelines for validation, transformation, and standardization before ingestion into core systems",
+            "Built data pipelines supporting analytics and reporting across supply chain operations",
+
             "Supported platform serving 800,000+ enterprises and large-scale product datasets",
             "Designed system with 40+ microservices handling high-throughput transactions"
         ]
@@ -39,7 +41,7 @@
             "to": "June 2018"
         },
         "description": [
-            "Design architecture for mobile and web-based applications",
+            "Designed system architecture for mobile and web applications across multiple projects",
             "Coordinate technical decisions and system design across teams",
             "Mentor developers and provide technical leadership",
             "Troubleshoot and resolve production issues"

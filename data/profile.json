@@ -42,6 +42,9 @@
         "facebook": {
             "display": "fb.me/congcuong.pham",
             "action": "https://www.facebook.com/congcuong.pham"
+        },
+        "location": {
+            "display": "Ho Chi Minh City, Vietnam"
         }
     },
     "skills_summary": [

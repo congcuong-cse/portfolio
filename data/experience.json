@@ -1,6 +1,6 @@
 [
     {
-        "title": "Associate Solution Architect - Solution Architect",
+        "title": "Solution Architect",
         "company": "Atalink",
         "location": "Ho Chi Minh City, Viet Nam",
         "period": {
@@ -8,16 +8,13 @@
             "to": null
         },
         "description": [
-            "Design and maintain microservices architecture for scalable enterprise systems",
-            "Define system architecture, service boundaries, and integration patterns",
-            "Designed and integrated ERP systems with microservices-based architecture to support enterprise workflows",
-            "Customized and extended Odoo modules for supply chain, inventory, and accounting domains",
-            "Collaborate with stakeholders to gather and translate business requirements into technical solutions",
-            "Lead architecture reviews and ensure adherence to best practices and standards",
-            "Support development teams in resolving complex technical issues in production",
-            "Improve system performance, scalability, and maintainability",
-            "Drive adoption of event-driven architecture using Apache Kafka",
-            "Implement monitoring and logging solutions to improve system observability"
+            "Architected microservices platform integrated with ERP systems (Odoo and others)",
+            "Defined system architecture, service boundaries, and integration patterns",
+            "Led event-driven architecture adoption using Kafka",
+            "Improved system scalability, reliability, and observability",
+            "Collaborated with stakeholders to translate business requirements into technical solutions",
+            "Supported platform serving 800,000+ enterprises and large-scale product datasets",
+            "Designed system with 40+ microservices handling high-throughput transactions"
         ]
     },
     {
@@ -29,10 +26,8 @@
             "to": "Sep 2019"
         },
         "description": [
-            "Develop backend services and APIs using Node.js and related technologies",
-            "Build scalable web and mobile applications",
-            "Create reusable components and shared libraries",
-            "Participate in code reviews and enforce coding standards"
+            "Developed backend services and APIs using Node.js",
+            "Built scalable web and mobile applications"
         ]
     },
     {

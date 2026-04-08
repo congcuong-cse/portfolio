@@ -123,6 +123,10 @@ p {
     vertical-align: middle;
 }
 
+.sidebar-wrapper .contact-list .location .fa-map-marker {
+    font-size: 20px;
+}
+
 .sidebar-wrapper .contact-list li {
     margin-bottom: 15px;
 }
@@ -426,6 +430,9 @@ p {
     .github a[href]:before {
         content: "Github: ";
     }
+    .location span:before {
+        content: "Location: ";
+    }
     .microsoft-teams>span:before {
         content: "Microsoft Teams: ";
     }
@@ -514,7 +521,7 @@ p {
     }
 
     p {
-        line-height: 1.2;
+        line-height: 1.4;
         margin: 0 0 8px;
     }
 }

@@ -473,6 +473,10 @@ p {
         margin-bottom: unset;
     }
 
+    .sidebar-wrapper .contact-list .fa {
+        display: none;
+    }
+
     .sidebar-wrapper .container-block {
         display: inline-block;
         padding: 8px;
